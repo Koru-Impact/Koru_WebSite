@@ -119,15 +119,36 @@
         }
         @media (max-width: 899px) {
             .journal-featured-card {
-                flex-direction: column;
+                flex-direction: column !important;
+                align-items: stretch !important;
             }
             .journal-featured-card img {
                 width: 100% !important;
                 min-width: 0 !important;
                 max-width: 100% !important;
-                height: 200px !important;
+                height: 180px !important;
+                object-fit: cover !important;
+                border-radius: 0.75rem 0.75rem 0 0 !important;
+                margin: 0 !important;
+                display: block;
+            }
+            .journal-featured-card > div {
+                padding: 1.2rem 1rem !important;
             }
         }
+        @media (max-width: 767px) {
+  .journal-featured-card > div img[alt*="Şener"],
+  .journal-featured-card > div img[alt*="Khadija"],
+  .journal-featured-card > div img[alt*="Ekin"],
+  .journal-featured-card > div img[alt="Anonymous"] {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    min-width: 1.5rem !important;
+    min-height: 1.5rem !important;
+    max-width: 1.5rem !important;
+    max-height: 1.5rem !important;
+  }
+}
         .journal-sidebar ul li a:hover {
             color: var(--primary-green);
         }

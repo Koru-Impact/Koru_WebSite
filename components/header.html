@@ -2,11 +2,10 @@
 <nav class="navbar">
     <div class="container">
         <div class="navbar-container">
-            <!-- Logo/Brand -->
-            <div class="navbar-brand">
-                <a href="index.html">Koru Impact</a>
+            <!-- Brand always present -->
+            <div class="navbar-brand mobile-center-brand" style="white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
+                <a href="index.html" style="text-decoration:none; color:inherit;">Koru Impact</a>
             </div>
-            
             <!-- Desktop Navigation -->
             <div class="navbar-nav desktop">
                 <a href="index.html" id="nav-home">Home</a>
@@ -15,15 +14,13 @@
                 <a href="journal.html" id="nav-journal">The Koru Journal</a>
                 <a href="contact.html" id="nav-contact">Contact</a>
             </div>
-
-            <!-- Mobile Menu Button -->
-            <button class="mobile-menu-button" id="mobile-menu-button">
+            <!-- Mobile Menu Button (right) -->
+            <button class="mobile-menu-button mobile-only" id="mobile-menu-button" aria-label="Open menu">
                 <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
             </button>
         </div>
-
         <!-- Mobile Navigation Menu -->
         <div class="mobile-menu" id="mobile-menu">
             <a href="index.html" id="mobile-nav-home">Home</a>
