@@ -10,6 +10,8 @@ class NavigationManager {
             'index.html': ['nav-home', 'mobile-nav-home'],
             'about.html': ['nav-about', 'mobile-nav-about'],
             'services.html': ['nav-services', 'mobile-nav-services'],
+            'journal.html': ['nav-journal', 'mobile-nav-journal'],
+            'article.html': ['nav-journal', 'mobile-nav-journal'],
             'contact.html': ['nav-contact', 'mobile-nav-contact']
         };
         
